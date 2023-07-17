@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font: sans-serif;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #011627;
+	display: grid;
+	place-items: center;
+}
+
+.calculadora {
+	background-color: #014C8A;
+	color: #fff;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 350px;
+	max-width: 100%;
+	padding: 1.5rem;
+	border-radius: 1rem;
+	gap: .5rem;
+}
