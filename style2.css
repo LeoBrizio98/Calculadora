@@ -24,7 +24,7 @@ html {
 .contact {
 	display: flex;
 	gap: 1rem;
-	padding: 1rem;
+	padding: 1rem 1.7rem;
 }
 
 .contact li {
@@ -33,4 +33,75 @@ html {
 
 .contact a {
 	text-decoration: none;
+	color: #000;
+	font-size: 1.24rem;
+	letter-spacing: 0.1px;
+	transition: all .5s ease;
 }
+
+.contact a:hover {
+	color: orange;
+}
+
+.contact i {
+	padding: 0 .8rem;
+}
+
+
+.social-media {
+	display: flex;
+	gap: 1rem;
+	padding: 1rem 3rem;
+}
+
+.social-media li {
+	list-style: none;
+}
+
+.social-media a {
+	text-decoration: none;
+	color: #000;
+	font-size: 1.23rem;
+}
+
+.container-topbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 1.9rem 2.5rem;
+}
+
+.container-logo{
+	max-width: 100%;
+}
+
+.container-logo img {
+	width: 14.4rem;
+}
+
+.container-user {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container-search {
+	display: flex;
+	padding: 1.2rem;
+}
+
+.container-search input{
+	width: 40rem;
+	border: 2px solid orange;
+	padding: .7rem;
+}
+
+.container-search a {
+	font-size: 1.7rem;
+	padding: 0 1rem;
+	background-color: orange;
+	color: #fff;
+}
+
+
+
+
